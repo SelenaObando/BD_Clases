@@ -1,0 +1,73 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Maqueta.master.cs" Inherits="CapaPresentacionWeb.Maqueta" %>
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+   <!--  <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <meta name="description" content="Gestion de recursos">
+    <meta name="author" content="Prof. Saira U.">
+  
+    <title>Gestion de Recursos</title>
+
+     <!-- Estilo -->
+       <link href="Librerias/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+       <link href="Librerias/Estilos/personalizar.css" rel="stylesheet" />
+  </head>
+
+<body id="Inicio">
+    <form id="form1" runat="server">
+	 <nav  class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div  class="container">
+        <div class="navbar-header">
+         
+          <a class="navbar-bran">
+         	 <div class="dimg"><img src="Librerias/imagenes/laptop1.png" class="img-responsive" alt="Imagen responsive">
+          	</div>
+          </a>
+           <ul class="nav nav-pills">
+           <li class="active"><a href="Inicio.aspx">Inicio</a></li>
+            <li><a href="Servicios.aspx">Servicios</a></li>
+            <li><a href="Recursos.aspx">Recursos</a></li>
+            <li><a href="#Solicitud">Solicitud</a></li>
+            <li><a href="Contacto.aspx">Contacto</a></li>
+            <li><a href="VerComentarios.aspx">Ver Comentarios</a></li>
+        </ul>
+
+        </div><!--cierre de navbar-header-->
+      </div> <!--cierre de container-->
+    </nav> <!--nav-->
+
+    <div class="jumbotron">
+      <div class="container">
+
+        <h1 id="h1">Gesti�n de Recursos TIC</h1>
+        <p class="P1">Facultad Regional Multidisciplinaria de Chontales</p>
+        
+        
+      </div>  <!-- cierre container -->
+    </div> <!-- cierre jumbotron -->
+
+    <div id="contenido" class="container">
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   </div> <!-- /container -->
+ <div class="hr"><hr></div>  <!-- linea horizontal-->
+      <footer>
+        <p>&copy; Prof. Saira Urbina</p>
+        <a href="#Inicio" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"> </span></a>
+      </footer>
+    
+
+
+    <!-- Bootstrap JavaScript
+    ================================================== -->
+    <script src="Librerias/bootstrap/js/jquery1-11-3.min.js"></script>
+    <script src="Librerias/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/holder.js"></script>
+  </form>
+</body>
+</html>

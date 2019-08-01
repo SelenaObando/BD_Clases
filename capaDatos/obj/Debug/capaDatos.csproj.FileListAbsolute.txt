@@ -1,0 +1,15 @@
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\capaDatos.dll
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\capaDatos.pdb
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\CapaEntidades.dll
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\CapaEntidades.pdb
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.dll
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\capaDatos.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\capaDatos.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\CapaEntidades.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\bin\Debug\CapaEntidades.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.pdb

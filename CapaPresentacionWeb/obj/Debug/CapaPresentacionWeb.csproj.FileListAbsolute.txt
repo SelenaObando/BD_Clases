@@ -1,0 +1,11 @@
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaPresentacionWeb.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaPresentacionWeb.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaEntidades.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaNegocio.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\capaDatos.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaEntidades.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\CapaNegocio.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\bin\capaDatos.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\obj\Debug\CapaPresentacionWeb.csprojResolveAssemblyReference.cache
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\obj\Debug\CapaPresentacionWeb.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWeb\obj\Debug\CapaPresentacionWeb.pdb

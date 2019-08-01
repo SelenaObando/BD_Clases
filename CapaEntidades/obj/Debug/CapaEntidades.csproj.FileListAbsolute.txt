@@ -1,0 +1,10 @@
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\CapaEntidades\bin\Debug\CapaEntidades.dll
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\CapaEntidades\bin\Debug\CapaEntidades.pdb
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\CapaEntidades\obj\Debug\CapaEntidades.dll
+F:\Programación en Bases de Datos\Programando en visual clases\CapaEntidades\CapaEntidades\obj\Debug\CapaEntidades.pdb
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.dll
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.pdb
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.dll
+E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.pdb
