@@ -36,3 +36,9 @@ K:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD
 K:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.exe
 K:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.pdb
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.MDIRecurso.resources
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.csprojResolveAssemblyReference.cache
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.fRecursos.resources
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.fSolicitud.resources
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.MDIRecurso.resources
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.Properties.Resources.resources
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaPresentacionWF\obj\Debug\CapaPresentacionWF.csproj.GenerateResource.Cache

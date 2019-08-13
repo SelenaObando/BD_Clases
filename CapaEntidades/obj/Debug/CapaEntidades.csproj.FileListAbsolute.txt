@@ -8,3 +8,13 @@ E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD
 E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
 E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.dll
 E:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.pdb
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.dll
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.pdb
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.dll
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\bin\Debug\CapaEntidades.pdb
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.csprojResolveAssemblyReference.cache
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.dll
+F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaEntidades\obj\Debug\CapaEntidades.pdb

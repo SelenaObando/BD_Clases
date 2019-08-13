@@ -16,3 +16,6 @@ F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.dll
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.pdb
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.csprojResolveAssemblyReference.cache
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.dll
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\CapaNegocio\obj\Debug\CapaNegocio.pdb

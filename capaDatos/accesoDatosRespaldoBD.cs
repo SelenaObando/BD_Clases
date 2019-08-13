@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace capaDatos
 {
@@ -21,7 +22,7 @@ namespace capaDatos
                 SqlConnection cnx=cn.conectar();
 
                 cm=new SqlCommand("RespaldoBD_GER", cnx);
-                cm.CommandType = CommandType.StoredProcedure;
+                cm.CommandType=CommandType.StoredProcedure;           
                 cnx.Open();
                 cm.ExecuteNonQuery();
                 indicador=1;

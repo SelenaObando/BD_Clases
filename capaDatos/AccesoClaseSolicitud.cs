@@ -27,7 +27,7 @@ namespace capaDatos
                 SqlConnection cnx = cn.conectar(); //conexion
                 cm = new SqlCommand("solicitudes", cnx);
                 cm.Parameters.AddWithValue("@b", 1);
-                cm.Parameters.AddWithValue("@Idsolicitud", "");
+                cm.Parameters.AddWithValue("@idsolicitud", "");
                 cm.Parameters.AddWithValue("@aula", so.aula);
                 cm.Parameters.AddWithValue("@nivel", so.nivel);
                 cm.Parameters.AddWithValue("@fechasolicitud", so.fechasolicitud);
@@ -63,8 +63,8 @@ namespace capaDatos
             {
                 SqlConnection cnx = cn.conectar();
                 cm = new SqlCommand("solicitudes", cnx);
-                cm.Parameters.AddWithValue("@b", 3);
-                cm.Parameters.AddWithValue("@Idsolicitud", "");
+                cm.Parameters.AddWithValue("@b", 2);
+                cm.Parameters.AddWithValue("@idsolicitud", "");
                 cm.Parameters.AddWithValue("@aula", "");
                 cm.Parameters.AddWithValue("@nivel", "");
                 cm.Parameters.AddWithValue("@fechasolicitud", "");
@@ -82,14 +82,14 @@ namespace capaDatos
                 {
                     Solicitud solic = new Solicitud();
                     solic.Idsolicitud = Convert.ToInt32(dr["idsolicitud"].ToString());
-                    solic.aula = dr["Aula"].ToString();
-                    solic.nivel = dr["Nievl"].ToString();
-                    solic.fechasolicitud = Convert.ToDateTime(dr["Fechasolicitud"]);
-                    solic.fechauso = Convert.ToDateTime(dr["Fechauso"]);
-                    solic.horainicio = Convert.ToDateTime(dr["Horainicio"]);
-                    solic.horafinal = Convert.ToDateTime(dr["Horafinal"]);
-                    solic.carrera = dr["Carrera"].ToString();
-                    solic.asignatura = dr["Asignatura"].ToString();
+                    solic.aula = dr["aula"].ToString();
+                    solic.nivel = dr["nivel"].ToString();
+                    solic.fechasolicitud = Convert.ToDateTime(dr["fechasolicitud"]);
+                    solic.fechauso = Convert.ToDateTime(dr["fechauso"]);
+                    solic.horainicio = Convert.ToDateTime(dr["horainicio"]);
+                    solic.horafinal = Convert.ToDateTime(dr["horafinal"]);
+                    solic.carrera = dr["carrera"].ToString();
+                    solic.asignatura = dr["asignatura"].ToString();
                     listasolicitud.Add(solic);
                 }
             }
@@ -111,11 +111,11 @@ namespace capaDatos
             {
                 SqlConnection cnx = cn.conectar();
                 cm = new SqlCommand("solicitudes", cnx);
-                cm.Parameters.AddWithValue("@b", 2);
-                cm.Parameters.AddWithValue("@Idsolicitud", idsolicit);
-                cm.Parameters.AddWithValue("aula", "");
+                cm.Parameters.AddWithValue("@b", 3);
+                cm.Parameters.AddWithValue("@idsolicitud", idsolicit);
+                cm.Parameters.AddWithValue("@aula", "");
                 cm.Parameters.AddWithValue("@nivel", "");
-                cm.Parameters.AddWithValue("@fechasolicitudd", "");
+                cm.Parameters.AddWithValue("@fechasolicitud", "");
                 cm.Parameters.AddWithValue("@fechauso", "");
                 cm.Parameters.AddWithValue("@horainicio", "");
                 cm.Parameters.AddWithValue("@horafinal", "");
@@ -181,7 +181,7 @@ namespace capaDatos
                 SqlConnection cnx = cn.conectar();
                 cm = new SqlCommand("solicitudes", cnx);
                 cm.Parameters.AddWithValue("@b", 5);
-                cm.Parameters.AddWithValue("@Idsolicitud", "");
+                cm.Parameters.AddWithValue("@idsolicitud", "");
                 cm.Parameters.AddWithValue("@aula", dato);
                 cm.Parameters.AddWithValue("@nivel", "");
                 cm.Parameters.AddWithValue("@fechasolicitud", "");
@@ -199,14 +199,14 @@ namespace capaDatos
                 {
                     Solicitud solic = new Solicitud();
                     solic.Idsolicitud = Convert.ToInt32(dr["idsolicitud"].ToString());
-                    solic.aula = dr["Aula"].ToString();
-                    solic.nivel = dr["Nivel"].ToString();
-                    solic.fechasolicitud = Convert.ToDateTime(dr["Fechasolicitud"]);
-                    solic.fechauso = Convert.ToDateTime(dr["Fechauso"]);
-                    solic.horainicio = Convert.ToDateTime(dr["Horainicio"]);
-                    solic.horafinal = Convert.ToDateTime(dr["Horafinal"]);
+                    solic.aula = dr["aula"].ToString();
+                    solic.nivel = dr["nivel"].ToString();
+                    solic.fechasolicitud = Convert.ToDateTime(dr["fechasolicitud"]);
+                    solic.fechauso = Convert.ToDateTime(dr["fechauso"]);
+                    solic.horainicio = Convert.ToDateTime(dr["horainicio"]);
+                    solic.horafinal = Convert.ToDateTime(dr["horafinal"]);
                     solic.carrera = dr["carrera"].ToString();
-                    solic.asignatura = dr["Asignatura"].ToString();
+                    solic.asignatura = dr["asignatura"].ToString();
                     listasolicitud.Add(solic);
                 }
             }

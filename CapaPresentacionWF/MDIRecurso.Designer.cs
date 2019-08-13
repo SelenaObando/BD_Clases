@@ -153,7 +153,7 @@
             this.RespaldoBDtoolBarToolStripMenuItem.CheckOnClick = true;
             this.RespaldoBDtoolBarToolStripMenuItem.CheckState = System.Windows.Forms.CheckState.Checked;
             this.RespaldoBDtoolBarToolStripMenuItem.Name = "RespaldoBDtoolBarToolStripMenuItem";
-            this.RespaldoBDtoolBarToolStripMenuItem.Size = new System.Drawing.Size(137, 22);
+            this.RespaldoBDtoolBarToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.RespaldoBDtoolBarToolStripMenuItem.Text = "&RespaldoBD";
             this.RespaldoBDtoolBarToolStripMenuItem.Click += new System.EventHandler(this.ToolBarToolStripMenuItem_Click);
             // 
@@ -184,6 +184,7 @@
             this.salirToolStripMenuItem.Name = "salirToolStripMenuItem";
             this.salirToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.salirToolStripMenuItem.Text = "&Salir";
+            this.salirToolStripMenuItem.Click += new System.EventHandler(this.salirToolStripMenuItem_Click);
             // 
             // toolStrip
             // 

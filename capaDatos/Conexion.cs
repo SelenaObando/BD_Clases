@@ -12,7 +12,7 @@ namespace capaDatos
         public SqlConnection conectar()
         {
             SqlConnection cn = new SqlConnection();
-            cn.ConnectionString = "Data Source=FAREM_B4_16-PC\\SQLEXPRESS;Initial Catalog=bd_ger;Integrated Security=True";
+            cn.ConnectionString = "Data Source=FAREM_B4_11-PC\\SQLEXPRESS;Initial Catalog=bd_ger;Integrated Security=True";
             return cn;
         }
         

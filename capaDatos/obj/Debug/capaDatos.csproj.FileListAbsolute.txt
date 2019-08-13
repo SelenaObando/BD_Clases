@@ -13,3 +13,5 @@ F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.dll
 F:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.pdb
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.csprojResolveAssemblyReference.cache
+J:\Clases 4to año 1er semestre\Programación en Bases de Datos\BD_GER-master\BD_GER-master\capaDatos\obj\Debug\capaDatos.dll

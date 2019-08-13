@@ -35,7 +35,7 @@ namespace CapaPresentacionWF
                 if (buttonGuardar.Text == "Guardar")
                 {
                     Solicitud objetosolicitud = new Solicitud();
-                    objetosolicitud.asignatura = textBoxAula.Text;
+                    objetosolicitud.aula = textBoxAula.Text;
                     objetosolicitud.nivel = textBoxNivel.Text;
                     objetosolicitud.fechasolicitud = Convert.ToDateTime(dateTimePickerFechaSolicitud.Text);
                     objetosolicitud.fechauso = Convert.ToDateTime(dateTimePickerFechaUso.Text);

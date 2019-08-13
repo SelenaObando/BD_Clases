@@ -113,6 +113,7 @@
             // 
             // dateTimePickerHoraFinal
             // 
+            this.dateTimePickerHoraFinal.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerHoraFinal.Location = new System.Drawing.Point(177, 269);
             this.dateTimePickerHoraFinal.Name = "dateTimePickerHoraFinal";
             this.dateTimePickerHoraFinal.ShowUpDown = true;
@@ -122,12 +123,13 @@
             // 
             // dateTimePickerHoraInicio
             // 
+            this.dateTimePickerHoraInicio.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateTimePickerHoraInicio.Location = new System.Drawing.Point(177, 237);
             this.dateTimePickerHoraInicio.Name = "dateTimePickerHoraInicio";
             this.dateTimePickerHoraInicio.ShowUpDown = true;
             this.dateTimePickerHoraInicio.Size = new System.Drawing.Size(208, 20);
             this.dateTimePickerHoraInicio.TabIndex = 31;
-            this.dateTimePickerHoraInicio.Value = new System.DateTime(2019, 7, 31, 21, 25, 0, 0);
+            this.dateTimePickerHoraInicio.Value = new System.DateTime(2019, 8, 7, 21, 25, 0, 0);
             // 
             // buttonGuardar
             // 
