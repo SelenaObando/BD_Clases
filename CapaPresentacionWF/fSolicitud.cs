@@ -43,8 +43,8 @@ namespace CapaPresentacionWF
                     objetosolicitud.horafinal = Convert.ToDateTime(dateTimePickerHoraFinal.Text);
                     objetosolicitud.carrera = textBoxCarrera.Text;
                     objetosolicitud.asignatura = textBoxAsignatura.Text;
-                    objetosolicitud.idrecursos = Convert.ToInt32(comboBoxIdrecursos.Text);
-                    objetosolicitud.idusuario = Convert.ToInt32(comboBoxIdusuario.Text);
+                    objetosolicitud.idrecursos = Convert.ToInt32(comboBoxIdrecursos.SelectedValue.ToString());
+                    objetosolicitud.idusuario = Convert.ToInt32(comboBoxIdusuario.SelectedValue.ToString());
 
                     if (logicaNS.insertarSolicitud(objetosolicitud) > 0)
                     {
@@ -119,13 +119,33 @@ namespace CapaPresentacionWF
             textBoxIdsolicitud.Visible = false;
             labelIdsolicitud.Visible = false;
 
-            List<int> recur = new List<int>();
-            recur = logicaRE.listarRecursos().Select(x => x.idrecursos).ToList();
-            List<int> usuar = new List<int>();
-            usuar = logicaUS.listarUsuarios().Select(x => x.idusuario).ToList();
+            var datos = logicaRE.listarRecursos();
+            comboBoxIdrecursos.DataSource = (
+                from recurso in datos
+                select new
+                {
+                    recurso.idrecursos,
+                    nombrerecurso = recurso.nombrer
+                }
+            ).ToList();
 
-            comboBoxIdrecursos.DataSource = recur;
-            comboBoxIdusuario.DataSource = usuar;
+            comboBoxIdrecursos.ValueMember = "Idrecursos";
+            comboBoxIdrecursos.DisplayMember = "nombrerecurso";
+
+            var dato = logicaUS.listarUsuarios();
+            comboBoxIdusuario.DataSource = (
+                from usuario in dato
+                select new
+                {
+                    usuario.idusuario,
+                    nombreusuario = usuario.nombres + " " + usuario.apellidos
+                    
+                }
+            ).ToList();
+
+            comboBoxIdusuario.ValueMember = "Idusuario";
+            comboBoxIdusuario.DisplayMember = "nombreusuario";
+
             dataGridViewSolicitud.DataSource = logicaNS.ListarSolicitud();
         }
 

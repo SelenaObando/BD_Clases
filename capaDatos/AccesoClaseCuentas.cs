@@ -53,71 +53,71 @@ namespace capaDatos
         }
 
         public List<Cuentas> listarCuentas()
-{
-try
-{
-SqlConnection cnx= cn.conectar();
-cm= new SqlCommand("cuenta", cnx);
-cm.Parameters.AddWithValue("@b", 3);
-cm.Parameters.AddWithValue("@idcuenta", "");
-cm.Parameters.AddWithValue("@nombreuser", "");
-cm.Parameters.AddWithValue("@clave", "");
-cm.Parameters.AddWithValue("@rol", "");
+        {
+            try
+            {
+                SqlConnection cnx = cn.conectar();
+                cm = new SqlCommand("cuenta", cnx);
+                cm.Parameters.AddWithValue("@b", 3);
+                cm.Parameters.AddWithValue("@idcuenta", "");
+                cm.Parameters.AddWithValue("@nombreuser", "");
+                cm.Parameters.AddWithValue("@clave", "");
+                cm.Parameters.AddWithValue("@rol", "");
 
-cm.CommandType= CommandType.StoredProcedure;
-cnx.Open();
-dr= cm.ExecuteReader();
-listacuentas = new List<Cuentas>();
-while (dr.Read())
-{
-Cuentas c= new Cuentas();
-c.idcuenta= Convert.ToInt32(dr["Idcomentario"].ToString());
-c.nombreuser=dr["Nombre"].ToString();
-c.clave= dr["Correo"].ToString();
-c.rol= dr["Rol"].ToString();
-listacuentas.Add(c);
-}
-}
-catch (Exception e)
-{
-e.Message.ToString();
-listacuentas= null;
-}
-finally
-{
-    cm.Connection.Close();
-}
-return listacuentas;
-}
+                cm.CommandType = CommandType.StoredProcedure;
+                cnx.Open();
+                dr = cm.ExecuteReader();
+                listacuentas = new List<Cuentas>();
+                while (dr.Read())
+                {
+                    Cuentas c = new Cuentas();
+                    c.idcuenta = Convert.ToInt32(dr["Idcomentario"].ToString());
+                    c.nombreuser = dr["Nombre"].ToString();
+                    c.clave = dr["Correo"].ToString();
+                    c.rol = dr["Rol"].ToString();
+                    listacuentas.Add(c);
+                }
+            }
+            catch (Exception e)
+            {
+                e.Message.ToString();
+                listacuentas = null;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+            return listacuentas;
+        }
 
         public int EliminarCuentas(int idcuent)
-{
-try
-{
-SqlConnection cnx=cn.conectar();
-cm=new SqlCommand("cuenta", cnx);
-cm.Parameters.AddWithValue("@b", 2);
-cm.Parameters.AddWithValue("@idcuenta", idcuent);
-cm.Parameters.AddWithValue("nombreuser", "");
-cm.Parameters.AddWithValue("@clave", "");
-cm.Parameters.AddWithValue("@rol", "");
+        {
+            try
+            {
+                SqlConnection cnx = cn.conectar();
+                cm = new SqlCommand("cuenta", cnx);
+                cm.Parameters.AddWithValue("@b", 2);
+                cm.Parameters.AddWithValue("@idcuenta", idcuent);
+                cm.Parameters.AddWithValue("nombreuser", "");
+                cm.Parameters.AddWithValue("@clave", "");
+                cm.Parameters.AddWithValue("@rol", "");
 
-cm.CommandType=CommandType.StoredProcedure;
-cnx.Open();
-cm.ExecuteNonQuery();
-indicador=1;
-}
-catch(Exception e)
-{
-e.Message.ToString();
-indicador=0;
-}
-finally
-{
-cm.Connection.Close();
-}
-return indicador;
-}
+                cm.CommandType = CommandType.StoredProcedure;
+                cnx.Open();
+                cm.ExecuteNonQuery();
+                indicador = 1;
+            }
+            catch (Exception e)
+            {
+                e.Message.ToString();
+                indicador = 0;
+            }
+            finally
+            {
+                cm.Connection.Close();
+            }
+            return indicador;
+        }
 
         public int EditarCuentas(Cuentas ct)
         {

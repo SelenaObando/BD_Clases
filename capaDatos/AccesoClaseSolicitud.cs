@@ -36,7 +36,8 @@ namespace capaDatos
                 cm.Parameters.AddWithValue("@horafinal", so.horafinal);
                 cm.Parameters.AddWithValue("@carrera", so.carrera);
                 cm.Parameters.AddWithValue("@asignatura", so.asignatura);
-
+                cm.Parameters.AddWithValue("@idrecursos", so.idrecursos);
+                cm.Parameters.AddWithValue("@idusuario", so.idusuario);
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -73,6 +74,8 @@ namespace capaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -90,6 +93,8 @@ namespace capaDatos
                     solic.horafinal = Convert.ToDateTime(dr["horafinal"]);
                     solic.carrera = dr["carrera"].ToString();
                     solic.asignatura = dr["asignatura"].ToString();
+                    solic.Idsolicitud = Convert.ToInt32(dr["idrecursos"].ToString());
+                    solic.Idsolicitud = Convert.ToInt32(dr["idusuario"].ToString());
                     listasolicitud.Add(solic);
                 }
             }
@@ -121,6 +126,8 @@ namespace capaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -155,6 +162,8 @@ namespace capaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -190,6 +199,8 @@ namespace capaDatos
                 cm.Parameters.AddWithValue("@horafinal", "");
                 cm.Parameters.AddWithValue("@carrera", "");
                 cm.Parameters.AddWithValue("@asignatura", "");
+                cm.Parameters.AddWithValue("@idrecursos", "");
+                cm.Parameters.AddWithValue("@idusuario", "");
 
                 cm.CommandType = CommandType.StoredProcedure;
                 cnx.Open();
@@ -207,6 +218,8 @@ namespace capaDatos
                     solic.horafinal = Convert.ToDateTime(dr["horafinal"]);
                     solic.carrera = dr["carrera"].ToString();
                     solic.asignatura = dr["asignatura"].ToString();
+                    solic.Idsolicitud = Convert.ToInt32(dr["idrecursos"].ToString());
+                    solic.Idsolicitud = Convert.ToInt32(dr["idsusuario"].ToString());
                     listasolicitud.Add(solic);
                 }
             }
